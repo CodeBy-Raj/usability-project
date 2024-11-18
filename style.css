@@ -241,14 +241,26 @@ header {
     justify-content: space-evenly;
     align-items: start;
   }
-  /* .footer-container img{
-    hie
-  } */
+  
   .link-column{
     flex-direction: column;
     align-items: start;
     gap: 20px;
   }
+  
+.subfooter{
+    background-color: var(--primary-text-color);
+    color: white;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+}
+
+.pages{
+  gap: 15px;
+  
+}
 
 .spacer {
   min-height: 50vh;
